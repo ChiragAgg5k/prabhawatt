@@ -111,6 +111,7 @@ export default function Dashboard() {
     initializeDashboard();
   }, [user]);
 
+  // Fetch TOU history
   useEffect(() => {
     let isMounted = true;
     fetchTOUHistory().then((touHistory) => {

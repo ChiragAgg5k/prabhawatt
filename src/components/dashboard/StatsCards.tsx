@@ -39,7 +39,7 @@ export default function StatsCards({
         </CardHeader>
         <CardContent>
           <div className="text-2xl flex items-center justify-start">
-            <p className="font-bold">{currentBatteryPower.toFixed(1)} kWh</p>
+            <p className="font-bold">{currentBatteryPower.toFixed(1)} kW</p>
             <p className="text-xs text-muted-foreground ml-2">
               {currentBatteryPower.toFixed(1) === userData.storageCapacity
                 ? "(Full)"
